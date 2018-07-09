@@ -27,6 +27,7 @@ class Dog
       self.save
     else
       sql = <<-SQL
-        INSERT INTO dogs 
+        INSERT INTO dogs (name, breed)
+        
   end
 end
