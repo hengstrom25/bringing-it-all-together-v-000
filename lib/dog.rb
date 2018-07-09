@@ -26,5 +26,7 @@ class Dog
     if self.id
       self.save
     else
+      sql = <<-SQL
+      
   end
 end
