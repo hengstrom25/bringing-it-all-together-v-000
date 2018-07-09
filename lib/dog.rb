@@ -76,4 +76,6 @@ class Dog
     end
   end
   
+  self.find_by_name
+  
 end
