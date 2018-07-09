@@ -21,4 +21,9 @@ class Dog
   def self.drop_table
     DB[:conn].execute("DROP TABLE IF EXISTS dogs")
   end
+  
+  def save
+    if self.id
+      self.save
+  end
 end
